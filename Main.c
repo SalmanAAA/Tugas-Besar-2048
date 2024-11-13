@@ -3,8 +3,8 @@
 #include <time.h>
 
 int main (){
-  printf("============2048============");
-  printf("|                           |");
-  printf("|                           |");
+  printf("============2048============\n");
+  printf("|                           |\n");
+  printf("|                           |\n");
   return 0;
 }
