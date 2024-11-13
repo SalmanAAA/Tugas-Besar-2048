@@ -11,3 +11,4 @@ int main (){
   scanf();
   return 0;
 }
+//salman ganteng
