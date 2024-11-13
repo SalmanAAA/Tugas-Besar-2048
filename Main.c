@@ -5,5 +5,6 @@
 int main (){
   printf("============2048============");
   printf("|                           |");
+  printf("|                           |");
   return 0;
 }
