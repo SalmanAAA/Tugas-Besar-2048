@@ -8,7 +8,8 @@ int main (){
   printf("|    welcome to our game    |\n");
   printf("|                           |\n");
   printf("============================|\n");
-  scanf();
+  //scanf();
+  //test
   return 0;
 }
 //salman ganteng
