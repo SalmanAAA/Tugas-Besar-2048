@@ -7,7 +7,6 @@ int main (){
   printf("|                           |\n");
   printf("|    welcome to our game    |\n");
   printf("|                           |\n");
-  printf("|                           |\n");
   printf("============================|\n");
   return 0;
 }
