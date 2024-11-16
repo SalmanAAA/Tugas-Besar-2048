@@ -12,4 +12,3 @@ int main (){
   //test
   return 0;
 }
-//salman ganteng
