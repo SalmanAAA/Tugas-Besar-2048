@@ -16,14 +16,10 @@ int main (){
 
 void printPapan(int papan[SIZE][SIZE]){
   for (int i=0;i<SIZE;i++){
-    for(int j=1;j<=SIZE;j++){
-      if (papan[i][j]==0){
-        printf(".\t"); //menampilkan board 2 Dimensi.
-      }else{
-        printf("%d\t",papan[i][j]);
-      }
+    for(int j=0;j<=SIZE;j++){
+    	printf("%4d",(papan[i][j]==0));
     }
     printf("\n");
   }
-  printf("\n");
+}
 
