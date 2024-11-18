@@ -28,4 +28,6 @@ void printPapan(int papan[SIZE][SIZE]){
   printf("\n");
 }
 
-//cek
+//cek 
+//cek 2
+//cek 3
