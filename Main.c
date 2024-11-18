@@ -27,3 +27,5 @@ void printPapan(int papan[SIZE][SIZE]){
   }
   printf("\n");
 }
+
+//cek
