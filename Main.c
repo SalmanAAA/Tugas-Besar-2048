@@ -28,3 +28,4 @@ void printPapan(int papan[SIZE][SIZE]){
   printf("\n");
 
 //int main
+//gitpush
