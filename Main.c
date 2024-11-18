@@ -29,3 +29,4 @@ void printPapan(int papan[SIZE][SIZE]){
 
 //int main
 //gitpush
+//git test
