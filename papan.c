@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define SIZE 4 //Define SIZE untuk ukuran papan
-#define WIN 2048 //Define WIN untuk nilai menang
+#define SIZE 4 //define SIZE untuk ukuran papan
+#define WIN 2048 //define WIN untuk nilai menang
 int papan[SIZE][SIZE]; //define papan 2 dimensi
 
 void initPapan(){ //modul buat nol-in papan
