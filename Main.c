@@ -3,9 +3,9 @@
 
 int main(){
 
-    void printPapan(int papan[SIZE][SIZE]);
-    void initPapan(void);
-    void addTile(void);
+    void initPapan();
+    void printPapan();
+    void addTile();
 
     return 0;
 }

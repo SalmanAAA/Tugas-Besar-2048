@@ -16,7 +16,7 @@ void initPapan(){ //modul buat nol-in papan
   }
 }
 
-void printPapan(int papan[SIZE][SIZE]){ //modul buat nampilin papan
+void printPapan(){ //modul buat nampilin papan
   for (int i=0;i<SIZE;i++){
     for(int j=0;j<SIZE;j++){
     	printf("%4d",papan[i][j]);
