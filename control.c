@@ -10,7 +10,7 @@ void atas(){
     for (int j = 0; j < SIZE; j++){
         for (int i = 1; i < SIZE; i++){
             if (papan[i][j] != 0){
-                int k = i; //fungsi k buat nandain pergerakan di baris-1 (keatas)
+                int k = i; //var k buat nandain pergerakan di baris-1 (keatas)
                 while (k > 0 && papan[k-1][j] == 0){
                     papan[k-1][j] = papan[k][j];
                     papan[k][j] = 0;
