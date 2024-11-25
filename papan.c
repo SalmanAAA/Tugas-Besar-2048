@@ -14,6 +14,8 @@ void initPapan(){ //modul buat nol-in papan
       papan[i][j]=0;
     }
   }
+  addTile();
+  addTile();
 }
 
 void printPapan(){ //modul buat nampilin papan

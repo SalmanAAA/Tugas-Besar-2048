@@ -2,7 +2,7 @@
 #define PAPAN_H
 #define SIZE 4 
 
-void printPapan();
+void printPapan(void);
 void initPapan(void);
 void addTile(void);
 

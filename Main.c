@@ -3,9 +3,8 @@
 
 int main(){
 
-    void initPapan();
-    void printPapan();
-    void addTile();
+    initPapan();
+    printPapan();
 
     return 0;
 }
