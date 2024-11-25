@@ -14,7 +14,7 @@ void atas(){
                 while (k > 0 && papan[k-1][j] == 0){
                     papan[k-1][j] = papan[k][j];
                     papan[k][j] = 0;
-                    k--;
+                    k--; //k-- keatas lagi
                 }
                 if (k > 0 && papan[k-1][j] == papan{k}[j]){
                     papan[k-1][j] *= 2;
