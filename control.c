@@ -42,3 +42,41 @@ void bawah(){
         }
     }
 }
+
+void kiri(){
+    for (i = 0; i < SIZE; i++){
+        for (int j = 1; j < SIZE; j++){
+            if (papan[i][j] != 0){
+                int k = j;
+                while (k > 0 && papan[i][k-1] == 0){
+                    papan[i][k-1] = papan[i][k];
+                    papan[i][k] = 0;
+                    k--;
+                }
+                if (k > 0 && papan[i][k-1] == papan[i][k]){
+                    papan[i][k-1] *= 2;
+                    papan[i][k] = 0;
+                }
+            }
+        }
+    }
+}
+
+void kanan() {
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = SIZE - 2; j >= 0; j--) {
+            if (papan[i][j] != 0) {
+                int k = j;
+                while (k < SIZE - 1 && papan[i][k+1] == 0) {
+                    papan[i][k+1] = papan[i][k];
+                    papan[i][k] = 0;
+                    k++;
+                }
+                if (k < SIZE - 1 && board[i][k+1] == papan[i][k]) {
+                    papan[i][k+1] *= 2;
+                    papan[i][k] = 0;
+                }
+            }
+        }
+    }
+}
