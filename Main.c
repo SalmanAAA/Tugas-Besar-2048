@@ -1,10 +1,13 @@
 #include "papan.h"
+#include "control.h"
+#include "game.h"
 
 
-int main(){
-
+int main() {
     initPapan();
-    printPapan();
-
+    while (!isGameOver()) {
+        printPapan();
+        processInput();
+    }
     return 0;
 }

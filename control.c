@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-extern int papan[SIZE][SIZE]
+extern int papan[SIZE][SIZE];
 
 void atas(){
     for (int j = 0; j < SIZE; j++){
@@ -16,7 +16,7 @@ void atas(){
                     papan[k][j] = 0;
                     k--; //k-- keatas lagi
                 }
-                if (k > 0 && papan[k-1][j] == papan{k}[j]){
+                if (k > 0 && papan[k-1][j] == papan[k][j]){
                     papan[k-1][j] *= 2;
                     papan[k][j] = 0;
                 }
@@ -44,7 +44,7 @@ void bawah(){
 }
 
 void kiri(){
-    for (i = 0; i < SIZE; i++){
+    for (int i = 0; i < SIZE; i++){
         for (int j = 1; j < SIZE; j++){
             if (papan[i][j] != 0){
                 int k = j;
@@ -72,7 +72,7 @@ void kanan() {
                     papan[i][k] = 0;
                     k++;
                 }
-                if (k < SIZE - 1 && board[i][k+1] == papan[i][k]) {
+                if (k < SIZE - 1 && papan[i][k+1] == papan[i][k]) {
                     papan[i][k+1] *= 2;
                     papan[i][k] = 0;
                 }

@@ -18,6 +18,7 @@ void initPapan(){ //modul buat nol-in papan
 }
 
 void printPapan(){ //modul buat nampilin papan
+  system("cls");
   for (int i=0;i<SIZE;i++){
     for(int j=0;j<SIZE;j++){
     	printf("%4d",papan[i][j]);
@@ -40,8 +41,6 @@ void addTile(){ //modul buat nambah tile
   }
   if (emptyCount>0){ //jika ada posisi kosong
     int r = rand()%emptyCount; //buat random untuk posisi kosong
-    papan[empty[r][0]][empty[r][1]]=(rand()%2+1)*2; //random nilai 2 atau 4
+    papan[empty[r][0]][empty[r][1]] = (rand()%10 == 0) ? 4 : 2; //random nilai 2, ? <- operator ternary
   }
 }
-
-//bikin modul buat kontrol nya, bikin file baru aja, jangan lupa h nya
