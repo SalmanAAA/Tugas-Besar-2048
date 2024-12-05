@@ -1,8 +1,6 @@
 #include "control.h"
 #include "papan.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 extern int papan[SIZE][SIZE];
 
