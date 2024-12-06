@@ -1,6 +1,7 @@
 #include "game.h"
 #include "papan.h"
 #include "control.h"
+#include "score.h"
 #include <stdio.h>
 #include <conio.h> // Untuk _getch()
 
@@ -50,6 +51,7 @@ int checkFull() {
 int isGameOver() {
     if (checkWin()) {
         printPapan();  //untuk print papan terakhir
+        displayScore();
         printf("Selamat! Anda mencapai 2048!\n");
         printf("Tekan tombol apapun untuk keluar...\n");
         _getch();  // Tunggu input sebelum keluar
@@ -57,6 +59,7 @@ int isGameOver() {
     }
     if (checkFull()) {
         printPapan();  // untuk print papan terakhir
+        displayScore();
         printf("Permainan selesai. Tidak ada gerakan yang tersisa.\n");
         printf("Tekan tombol apapun untuk keluar...\n");
         _getch();  // Tunggu input sebelum keluar

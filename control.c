@@ -1,5 +1,6 @@
 #include "control.h"
 #include "papan.h"
+#include "score.h"
 #include <stdio.h>
 
 extern int papan[SIZE][SIZE];
@@ -16,6 +17,7 @@ void atas(){
                 }
                 if (k > 0 && papan[k-1][j] == papan[k][j]){
                     papan[k-1][j] *= 2;
+                    updateScore(papan[k-1][j]);
                     papan[k][j] = 0;
                 }
             }
@@ -34,6 +36,7 @@ void bawah(){
                 }
                 if (k < SIZE - 1 && papan[k+1][j] == papan[k][j]){
                     papan[k+1][j] *= 2;
+                    updateScore(papan[k+1][j]);
                     papan[k][j] = 0;
                 }
             }
@@ -53,6 +56,7 @@ void kiri(){
                 }
                 if (k > 0 && papan[i][k-1] == papan[i][k]){
                     papan[i][k-1] *= 2;
+                    updateScore(papan[i][k-1]);
                     papan[i][k] = 0;
                 }
             }
@@ -72,6 +76,7 @@ void kanan() {
                 }
                 if (k < SIZE - 1 && papan[i][k+1] == papan[i][k]) {
                     papan[i][k+1] *= 2;
+                    updateScore(papan[i][k+1]);
                     papan[i][k] = 0;
                 }
             }
