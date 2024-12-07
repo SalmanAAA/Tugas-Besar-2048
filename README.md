@@ -1,6 +1,21 @@
 ## 2048
 penugasan Mata Kuliah DDP-P prodi D4 Teknik Informatika kelas 1B
 yang berangggotakan: <br>
-- Fathin Yassarahman <p align="center">241524041</p>             <p align="right">(vermilion10)</p> 
-- Raden Muhammad Farhan Fauzan <p align="center">241524059</p>   <p align="right">(Cloviszion)</p> 
-- Salman Alfarisi <p align="center">241524060</p>                <p align="right">(SalmanAAA)</p> <br>
+
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="padding: 5px;">Fathin Yassarahman</td>
+    <td style="padding: 5px; text-align: center;">241524041</td>
+    <td style="padding: 5px; text-align: right;">vermilion10</td>
+  </tr>
+  <tr>
+    <td style="padding: 5px;">Raden Muhammad Farhan Fauzan</td>
+    <td style="padding: 5px; text-align: center;">241524059</td>
+    <td style="padding: 5px; text-align: right;">Cloviszion</td>
+  </tr>
+  <tr>
+    <td style="padding: 5px;">Salman Alfarisi</td>
+    <td style="padding: 5px; text-align: center;">241524060</td>
+    <td style="padding: 5px; text-align: right;">SalmanAAA</td>
+  </tr>
+</table>
